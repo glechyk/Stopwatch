@@ -26,6 +26,7 @@ dependencies {
     implementation(projects.core.log)
 
     implementation(projects.feature.pomodoro)
+    implementation(projects.feature.pomodoroInitial.presentation)
 
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.core.splashscreen)

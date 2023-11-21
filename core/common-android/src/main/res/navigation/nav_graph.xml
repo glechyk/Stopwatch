@@ -3,11 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/pomodoro_fragment">
+    app:startDestination="@id/pomodoro_initial_fragment">
 
     <fragment
         android:id="@+id/pomodoro_fragment"
         android:name="com.newage.feature.pomodoro.PomodoroFragment"
         android:label="PomodoroFragment"
         tools:layout="@layout/fragment_pomodoro" />
+    <fragment
+        android:id="@+id/pomodoro_initial_fragment"
+        android:name="com.newage.pomodoro_initial.presentation.PomodoroInitialFragment"
+        android:label="fragment_pomodoro_initial"
+        tools:layout="@layout/fragment_pomodoro_initial" />
 </navigation>

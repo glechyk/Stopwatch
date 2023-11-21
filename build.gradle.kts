@@ -15,6 +15,8 @@ plugins {
     alias(libs.plugins.ktlint) apply false
     alias(libs.plugins.protobuf) apply false
     alias(libs.plugins.gradleVersions)
+    alias(libs.plugins.com.android.library) apply false
+    alias(libs.plugins.org.jetbrains.kotlin.android) apply false
 }
 
 
